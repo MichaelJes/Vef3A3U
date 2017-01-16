@@ -27,5 +27,5 @@ class User
 
 }
 $user = new User('gary@gmail.com','chicken');
-$user->getEmail()
+print ($user->getEmail());
 ?>
