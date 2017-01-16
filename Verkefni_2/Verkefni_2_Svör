@@ -6,3 +6,31 @@ Protected er líkt og private en Protected getur lík verið notað af klösum s
 Þegar þú býrð til subclass af mainklassanum erfir subclassin allar breytunar af main klassanun
 3.
 Autoload er notað í staðan fyrir Include, það virkar með því að kalla á sjálfa klassana í byrjuna kóðans
+4.
+class User
+{
+    public $email;
+    public $password;
+    public function __construct ($netfang,$lykilord) {
+        $this->email = $netfang;
+        $this->password = $lykilord;
+    }
+    public function setPassword($newpassword)
+    {
+        $this->password = $newpassword;
+    }
+    public function setEmail($newEmail)
+    {
+        $this->email = $newEmail;
+    }
+    public function getPassword()
+    {
+        return $this->password;
+    }
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+}
+5.
