@@ -34,6 +34,7 @@ class User
 
 }
 5.
-Object Oriented Programing er gott því að þu getur endurnotað kóða með því að bútta þeim niður.
+Object Oriented Programing er gott því að þu getur endurnotað kóðann sem þú skrifar því hann er í bútum.
 OOP gefur líka skýra uppbyggingu á kóðanum þínum svo aðrir gets skilið hann bettur .
 Þriðja er það OOP gerir það auðvelt að finna villuna í koðanum með skipta kóðanum í búta í staðinn fyrir að hafa bara einn langan kóða.
+OOP er kanski ekki eins gott þegar þú ert bara að vinna með einn hlut sem tengist nánast engu. Að brjóta það niður í endalausa klassa gerir bara kóða þinn hægari
