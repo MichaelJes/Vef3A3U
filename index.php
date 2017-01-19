@@ -5,7 +5,7 @@ class User
     public $email;
     public $password;
     public function __construct ($netfang,$lykilord) {
-        $this->username = $netfang;
+        $this->email = $netfang;
         $this->password = $lykilord;
     }
     public function setPassword($newpassword)
@@ -26,6 +26,6 @@ class User
     }
 
 }
-$user = new User('gary@gmail.com','chicken');
-print ($user->getEmail());
+$Gary = new User('gary@gmail.com','chicken');
+echo $Gary->getEmail();
 ?>
