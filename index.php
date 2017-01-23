@@ -9,7 +9,7 @@ initialise_site($site);
 $page = new cpage("Welcome to my site!");
 $site->setPage($page);//settur þetta á síðuna
 
-$content = "Welcome to my personal web site!";
+$content = "Hello";
     $page->setContent($content);//Settur content á síðuna undir content
 
     $site->render();//Renderar allt saman
