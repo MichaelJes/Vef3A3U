@@ -13,4 +13,3 @@ function initialise_site(csite $site) {
     $site->addHeader("header.php");// add header og Footer eru function í csite classanum sem við notum hér
     $site->addFooter("footer.php");
 }
-?>
