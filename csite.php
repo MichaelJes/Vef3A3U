@@ -30,6 +30,7 @@
             foreach($this->footers as $footer) {
                 include $footer;
             }
+            $this->page->render();
         }
 
         public function addHeader($file) {
