@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32205614-5da8-4517-9f0f-eab19cfe98c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cpage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/csite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stdlib.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Footer.php" afterPath="$PROJECT_DIR$/Footer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/Footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -237,12 +231,12 @@
       <option name="presentableId" value="Default" />
       <updated>1484573655830</updated>
       <workItem from="1484573658490" duration="3157000" />
-      <workItem from="1485177404556" duration="2068000" />
+      <workItem from="1485177404556" duration="2312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5225000" />
+    <option name="totallyTimeSpent" value="5469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,7 +335,7 @@
     <entry file="file://$PROJECT_DIR$/Footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
