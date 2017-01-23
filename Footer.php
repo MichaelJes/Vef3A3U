@@ -1,4 +1,4 @@
 
 </body>
-<h3>Þetta er footer</h3>
+<h3>This is a footer</h3>
 </html>
