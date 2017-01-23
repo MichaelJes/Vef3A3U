@@ -24,9 +24,7 @@
             foreach($this->headers as $header) {
                 include $header;
             }
-
-            $this->page->render();
-
+            
             foreach($this->footers as $footer) {
                 include $footer;
             }
