@@ -5,7 +5,7 @@
  * Date: 1/23/2017
  * Time: 1:26 PM
  */
-function __autoload($class) {//Þetta lopar gegnum alla hltuina í intialise site og includar það í Index síðuna
+function __autoload($class) {//Þetta verður virkt þegar við köllum í klassa og loadar þan klssa sem við kölðum á
     include "$class.php";
 }
 

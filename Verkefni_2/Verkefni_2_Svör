@@ -4,8 +4,16 @@ Private eru objects sem getta bara verið notuð af kóða sem er í sama klassa
 Protected er líkt og private en Protected getur lík verið notað af klösum sem er erfðir af aðal klassanum
 2.
 Þegar þú býrð til subclass af mainklassanum erfir subclassin allar breytunar af main klassanun
+Class Bill
+{
+    ....
+}
+Class Jeppi extends Bill
+{
+    .....
+}
 3.
-Autoload er notað í staðan fyrir Include, það virkar með því að kalla á sjálfa klassana í byrjuna kóðans
+Autoload er notað í staðan fyrir Include, það virkar með því includa klassa þegar það er kallað á þá
 4.
 class User
 {
