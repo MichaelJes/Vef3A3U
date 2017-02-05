@@ -1,0 +1,13 @@
+1.Hvað er hönnunarmynstur?
+    Hönnunarmynstur er hvernig kóðinn er uppsetur, Það eru mörg fræg hönnunarmynstur eins og Factory og Singleton
+2.MVC
+    Stendur fyrir Model Veiwer Controller sem er notað til að skipta niður kóða fyrir endutnokun og þægileika
+3.Útskýrðu MVC í bakenda vefþróun.
+    Þegar Http beðni kemur tekur controllerin upplýsingarnar og sendir þær til Modelsins. Eftir það svarar það clientinum með því
+    að senda á hann veiw sem er samsett af Html fileinum og modelinum. Vafrinn vinnur svo út úr þessum upplýsingum til að búa til síðu.
+4.
+    SPA notað fyrir web Application svo þau geta loadað alla síðuna í einu og þannig þurfa ekki að refreshast til að fá aðrar upplýsingar
+    Front end vinnur venjulega með Javascript Framework
+
+
+
