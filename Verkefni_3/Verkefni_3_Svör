@@ -6,8 +6,8 @@
     Þegar Http beðni kemur tekur controllerin upplýsingarnar og sendir þær til Modelsins. Eftir það svarar það clientinum með því
     að senda á hann veiw sem er samsett af Html fileinum og modelinum. Vafrinn vinnur svo út úr þessum upplýsingum til að búa til síðu.
 4.
-    SPA notað fyrir web Application svo þau geta loadað alla síðuna í einu og þannig þurfa ekki að refreshast til að fá aðrar upplýsingar
-    Front end vinnur venjulega með Javascript Framework
+    SPA er tegund af uppsetnigu sem leyfir þér að loadað alla síðuna í einu og þannig þarf clientin ekki að refreshast til að fá aðrar upplýsingar
+    Front end vinnur venjulega með  html og Javascriptinu og vinnur á clientinum.
 
 
 
