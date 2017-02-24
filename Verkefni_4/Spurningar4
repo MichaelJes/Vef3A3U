@@ -1,0 +1,17 @@
+1.
+Óskotirnir við það að nota MVC eru fáir en samt stórir. Eitt af helstu vandamálunum með að nota MVC
+mynstrið er að það getur verið mjög flókið í byrjun að setta það upp, það eru margir hlutir sem þú verður að vera búinn
+að gera fyrir en maður getur byrjað að skrifa einfalda kóða línu sem og Echo("Halló heimur").
+Það getur líka verið erfitt að fá Model, View og Controller til vinna saman eins og maður vill. Maður getur þurft að fara gegnum
+fullt af káníu holum sem eru bara function sem leiða til aðra function sem kallar baraá aðra function. Þetta getur verið svólítið
+óþolandi þegar maður er að reyna finna út bara hvað einn lína gerir í Index síðunni.
+2.
+!-Put something about routing here-!
+Það virkar með því að nota url rewriting til að birta upplýsingarnar án þess að þurfa að load nýjari síðu, það updatar bara núverandi
+síðu með nýjum gögnum með því að seta það í url og load svo function tengt efninu sem þú villt sjá.
+3.
+Static routing er
+4.
+Dynamic Routing er
+5.
+Front controller er
