@@ -18,4 +18,20 @@ Static routing er einfalda leiðin að nota routing, það notar bara eina stati
 4.
 Dynamic Routing er flóknari því það notar breytilega síðu.
 5.
-Front controller er
+Front controller er klassi sem sér um að meðhöndla mikilvæga hluti eins og Templating, routing og örrygi á síðunini. Front controllerin er eins konar dyrvörður að síðunni þinni, hann tekur beðnir frá notendum og sendir skilaboð til tilgreindan controller sem svo kallar á Model og view til að gera ákverðna hluti svo send þeir aftur upplýsingar til controller sem svo lætur Front controllinum fá það . Þetta er mikilvægt fyrir öryggi síðunar að hafa bara einn klassi sem gerir þetta allt annars gæti orðið vandamál.  
+Þetta virkar nokhvert vegin svona
+1. Nýr Front controller er frumstiltur 
+2. Front controllerinn býr til nýjan tilgreindan controller
+3. Controllerin býr svo til Modelið og viewið
+4.Front controllerinn kallar á ákveðna function á controllernum
+5. Front controller fær svo View frá controllernum og sendir það á síðuna
+Dæmi
+<?php
+
+if ($_SERVER['REQUEST_URI'] == '/News') {
+    include 'News.php';
+} elseif ($_SERVER['REQUEST_URI'] == '/About') {
+    include 'about.php';
+} else {
+    include 'notfound.php';
+}
