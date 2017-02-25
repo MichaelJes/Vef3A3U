@@ -6,12 +6,16 @@ að gera fyrir en maður getur byrjað að skrifa einfalda kóða línu sem og E
 fullt af káníu holum sem eru bara function sem leiða til aðra function sem kallar baraá aðra function. Þetta getur verið svólítið
 óþolandi þegar maður er að reyna finna út bara hvað einn lína gerir í Index síðunni.
 2.
-!-Put something about routing here-!
-Það virkar með því að nota url rewriting til að birta upplýsingarnar án þess að þurfa að load nýjari síðu, það updatar bara núverandi
-síðu með nýjum gögnum með því að seta það í url og load svo function tengt efninu sem þú villt sjá.
+ Routing felst í því að taka urlið eða slóðina og brjóta hana niður í hluta og svo ákveða hvaða scriðtu á að kalla á.
+Routing virkar með því að nota url rewriting sem tekur gögninn sem það fær frá urlinu og sendir á Controllerin sem svo les út úr gögnum og kallar á module til fá upplýsingar og svo sendur þær upplýsingar til view sem skrifar því svo á aðal síðuna eða Index síðuna.
+
+Beðni kemur frá notenda sem gætti verið svona 
+Mbl.is/fréttir/erlentEfni/parameter1
+Controllerin tekur svo upplýsingarnar í urlinu og notar þær til að birta réttu upplýsingarnar á Index.php skjalinu
+Kanski mundi hann taka parameter1 og leita af því gagnagrunninum með sql til finna réttu upllýsingarnar. 
 3.
-Static routing er
+Static routing er einfalda leiðin að nota routing, það notar bara eina static síðu sem breytist ekki
 4.
-Dynamic Routing er
+Dynamic Routing er flóknari því það notar breytilega síðu.
 5.
 Front controller er
