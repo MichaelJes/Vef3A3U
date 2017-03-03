@@ -1,0 +1,13 @@
+1.
+a)nær í fyrirliggjandi úrræði, Notar Urlið til finna og skila efninu.
+b)Það tekur in upplýsingar og býr til Post Array
+c)Updatar Array eða resource
+d)Eyðir resource
+2.
+
+a) 200 þýðir að allt er í lagi of að serverinn er búinn að senda gögninn
+b) 301 Þýðir að gögnin voru færð á annan stað
+c) 400 þýðir að kallið virkaði ekki
+d) 404 þýðir að gögnin voru ekki til staðar
+e) 500 þýðir að það voru server vandamál.
+3.
