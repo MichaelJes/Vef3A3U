@@ -13,6 +13,26 @@ e) 500 þýðir að það voru server vandamál.
 3.
 HTTP 2.0 er binary og multiplexed og getur þanning gert margar aðgerðir í einu.
 Notar Header compression og leyfir núna serverum að ýta svörum standslaust in í vafra mynni.
+4.
+a)
+$jsonData = '{"myndir":[
+				{"title":"Music","url":https://i.ytimg.com/vi/NDg2kSwVXU0/maxresdefault.jpg},
+				{"title":"Winter","url":http://netdna.webdesignerdepot.com/uploads/2013/11/picjumbo.com_DSC_3274.jpg},
+				{"title":"Piano","url":https://i.ytimg.com/vi/5yRIt5yS36s/maxresdefault.jpg},
+]}';
+b)
+$json_array = json_decode($jsonData, true);
+array_push(json_array,{        //add the employee
+    title:"Mountain",
+    url:"http://kingofwallpapers.com/1920x1080/1920x1080-008.jpg",}
+);
+$jsonData = json_encode($json_array);
+file_put_contents($jsonDatan, $jsonData);
+c)
+Er á Síðunni
+
+// Skoðum breytinguna
+echo $jsonData;
 5.
 a)
 	{
