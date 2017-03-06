@@ -11,3 +11,32 @@ c) 400 þýðir að kallið virkaði ekki
 d) 404 þýðir að gögnin voru ekki til staðar
 e) 500 þýðir að það voru server vandamál.
 3.
+HTTP 2.0 er binary og multiplexed og getur þanning gert margar aðgerðir í einu.
+Notar Header compression og leyfir núna serverum að ýta svörum standslaust in í vafra mynni.
+5.
+a)
+	{
+	    "CrustType": "Orginal",
+	    "toppings": ["chesse", "pepporoni", "garlic"],
+	    "status": "cooking",
+	   "costumer": {
+	        "name": "Jerry",
+	        "phone": 94121,
+	        
+	    },
+	}
+b)
+<pizza id="0">
+      <Crustype>Orginal</Crustype>
+      <toppings>
+        <value>"Chesse"</value>
+        <value>"pepporoni"</value>
+        <value>"garlic"</value>
+      </toppings>
+      <status>cooking</status>
+      <costumer>
+        <name>"jerry"</name>
+        <phone>"1234567"</phone>
+        
+      </toppings>
+   </book>
