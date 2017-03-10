@@ -10,6 +10,7 @@
 class Person
 {
     public $name;
+    public  $age;
     public function showName()
     {
         echo $this->name;
@@ -19,16 +20,8 @@ class Person
     {
         //insert name into database
     }
-=======
- * User: Michael
- * Date: 29/01/2017
- * Time: 14:49
- */
-class Person
-{
 
-    public $name;
-    public  $age;
+
     public function __construct($name)
     {
         $this->name = $name;
@@ -45,6 +38,4 @@ class Person
     {
         return $this->age * 365;
     }
-
->>>>>>> origin/master
 }
