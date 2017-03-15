@@ -27,7 +27,7 @@ array_push(json_array,array(       //add the employee
     url:"http://kingofwallpapers.com/1920x1080/1920x1080-008.jpg",)
 );
 $jsonData = json_encode($json_array);
-file_put_contents($jsonDatan, $jsonData);
+//file_put_contents($jsonDatan, $jsonData);
 c)
 
 $json_array = json_decode($jsonData, true);
